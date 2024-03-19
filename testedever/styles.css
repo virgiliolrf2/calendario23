@@ -1,0 +1,86 @@
+header {
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.proximo, .antes {
+  height: 5%;
+  width: 5%;
+  border: 2px solid transparent ;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ffff;
+}
+
+.proximo:hover, .antes:hover {
+  background-color: rgb(222, 230, 241);
+}
+
+.calendario {
+  text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modalestilo {
+display: block ;
+  z-index: 20;
+  padding: 25px;
+  background-color: var(--modal-event);
+  box-shadow: 0px 0px 3px black;
+  border-radius: 5px;
+  width: 350px;
+  top: 100px;
+  left: calc(50% - 175px);
+  position: absolute;
+  font-family: sans-serif;
+}
